@@ -34,6 +34,16 @@ Installiert/aktualisiert `~/.claude/skills/stgallen-cd`. Bei Änderungen am Skil
 
 **Projekt-lokal verwenden** (nur in einem bestimmten Projekt, z.B. für Weitergabe/Versionierung mit einem anderen Repo): `.claude/skills/stgallen-cd/` in das Zielprojekt kopieren — Claude Code lädt Skills aus `.claude/skills/` automatisch und zieht sie bei passenden Anfragen heran.
 
+**In claude.ai (Browser) verwenden**: Skills lassen sich dort ebenfalls als eigenes Paket hochladen (Feature muss für den Plan aktiviert sein, i.d.R. Pro/Max/Team/Enterprise):
+
+1. Inhalt von `.claude/skills/stgallen-cd/` (also `SKILL.md` + `reference/`) als ZIP packen — `SKILL.md` muss direkt im Wurzelverzeichnis des Archivs liegen, nicht verschachtelt unter `.claude/skills/stgallen-cd/...`.
+   ```bash
+   cd .claude/skills/stgallen-cd
+   zip -r ../../../stgallen-cd.zip .
+   ```
+2. Auf claude.ai unter **Einstellungen → Capabilities/Skills** das ZIP hochladen.
+3. Skill im Chat aktivieren (Skill-Auswahl/Toggle) — danach greift er dort genauso wie in Claude Code.
+
 ## Quelle
 
 Erstellt aus dem Frontify Style Guide der Stadt St.Gallen (`company-41578.frontify.com`, Bereiche „Basiselemente" und „Anwendungen"). Bild- und Logo-Dateien sowie das dort verlinkte PDF „Umgang mit Bild.pdf" sind nicht Teil dieses Skills — bei Bedarf direkt im Original-Guide nachschlagen.
