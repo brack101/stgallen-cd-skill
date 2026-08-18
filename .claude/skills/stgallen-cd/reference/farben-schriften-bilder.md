@@ -39,6 +39,8 @@ Die Markenfarben entsprechen den Stadtfarben Rot und Schwarz — eines der wicht
 
 Diese erweiterte Palette (Zeilen ab #D28983 bis #D2CDE8) ist auch die offiziell freigegebene **Zusatzpalette für Bewegtbild und Social Media**.
 
+Quelle: https://company-41578.frontify.com/d/xD0Idv8S6VM3/basiselemente#/farben/markenfarben
+
 ## Schriften
 | Kontext | Schrift | Hinweis |
 |---|---|---|
@@ -59,7 +61,14 @@ font-family: "LinotypeUniversW01-Bold_723697", sans-serif;
 font-family: "Arial", sans-serif;
 ```
 
+Quellen:
+- https://company-41578.frontify.com/d/xD0Idv8S6VM3/basiselemente#/schriften/office-anwendungen
+- https://company-41578.frontify.com/d/xD0Idv8S6VM3/basiselemente#/schriften/print
+- https://company-41578.frontify.com/d/xD0Idv8S6VM3/basiselemente#/schriften/online
+
 Video-Untertitel (fest integriert): Format Full HD 1920×1080, Schrift Univers LT Std Roman 55 (oder Arial), Grösse 48px, Laufweite (ZAB) 2pt, Farbe #FFFFFF.
+
+Quelle: https://company-41578.frontify.com/d/xD0Idv8S6VM3/anwendungen#/digitale-medien/bewegtbild
 
 ## Bilder — Grundsätze
 Bildsprache ergänzt/unterstreicht/verbindet die textlichen Aussagen. Vier Kriterien:
@@ -71,3 +80,5 @@ Bildsprache ergänzt/unterstreicht/verbindet die textlichen Aussagen. Vier Krite
 Keine austauschbaren, beliebigen Bilder (auch keine generischen, technisch perfekten aber nichtssagenden Stock-Fotos) — solche Bildbotschaften werden übersehen.
 
 **Rechtliches**: Bei Bildmaterial gelten Recht am eigenen Bild, Urheberrecht etc. — Details im internen PDF "Umgang mit Bild.pdf" auf der Frontify-Seite (im Skill nicht enthalten, dort nachschlagen bzw. Dienststelle Kommunikation fragen).
+
+Quelle: https://company-41578.frontify.com/d/xD0Idv8S6VM3/basiselemente#/bilder/grundsaetze
