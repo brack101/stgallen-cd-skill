@@ -39,3 +39,5 @@ Rot präsent, aber nicht aufdringlich/aggressiv einsetzen. Schwarz primär als T
 **Logo:** Fahnenband + Schriftzug «st.gallen» (ohne «Stadt»), in Rot/Schwarz. Proportionen/Farben/Geometrie sind fix — nie verzerren, drehen, umfärben oder Elemente verschieben. Drei Grundversionen: farbig, schwarz, negativ (keine Graustufen-Version). Mindestgrösse: 4 mm Höhe ohne Beizeile, 9 mm mit Beizeile.
 
 Bei jeder Unklarheit oder Sonderfall, der hier nicht abgedeckt ist: an die Dienststelle «Kommunikation» verweisen (Standardhinweis im Original-Guide).
+
+**Will jemand das Logo tatsächlich verwenden/herunterladen?** Dieser Skill enthält keine Logo-Dateien, nur Regeln. Ablauf siehe `reference/logo.md` → Abschnitt "Logo beziehen": Version bestimmen, Datei nur über die offizielle Frontify-Seite beziehen, Regeln (Mindestgrösse/Schutzzone/Don'ts) gegenchecken, bei Sonderfällen «Kommunikation» kontaktieren.

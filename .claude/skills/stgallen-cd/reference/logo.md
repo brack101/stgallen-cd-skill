@@ -1,5 +1,13 @@
 # Logo — Detailregeln
 
+## Logo beziehen (wenn jemand die Datei braucht)
+Dieser Skill enthält keine Logo-Dateien selbst, nur die Regeln. Vorgehen, wenn jemand das Logo einsetzen will:
+
+1. **Version bestimmen** — anhand des Hintergrunds/Mediums: farbig (Standard), schwarz (nur S/W-Anwendungen, z.B. S/W-Druck oder -Video), negativ (dunkle/farbige Hintergründe, Referenz ist gute Lesbarkeit). Siehe Abschnitte "Grundversionen" und "Anwendung & Don'ts" unten.
+2. **Datei besorgen** — offizielle Quelle ist ausschliesslich die Frontify-Seite `company-41578.frontify.com/d/xD0Idv8S6VM3/basiselemente#/logo/grundversionen` (Abschnitte «Stadt-Logo farbig/schwarz/negativ», jeweils mit "Links zu Logo-Dateien"). Zugriff ggf. login-pflichtig. Logos nicht aus anderen Quellen (alte Dokumente, Google-Suche, Screenshots) wiederverwenden — Gefahr veralteter/falscher Versionen.
+3. **Regeln prüfen** — vor dem Einsatz Mindestgrösse, Schutzzone und Don'ts (unten) gegenchecken.
+4. **Sonderfall?** — Beizeile nötig, Unternehmenslogo, oder eine der Regeln lässt sich nicht einhalten (z.B. zu wenig Platz) → nicht selbst improvisieren, sondern an die Dienststelle «Kommunikation» verweisen.
+
 ## Wort-Bild-Marke
 Das Stadt-Logo besteht aus dem Fahnenband und dem Schriftzug «st.gallen» (Kleinschreibung, ohne die Bezeichnung «Stadt» — zugunsten maximaler Prägnanz). Farben: Rot und Schwarz. Weiterentwicklung des historischen «Fahnenbandcodes» von 1983, kompakter/dynamischer. Schriftzug in der Hausschrift «Taz» (Lucas de Groot) gesetzt — diese Schrift wird ausschliesslich in der Logo-Typografie verwendet, nicht im Fliesstext. Die Stadtfarben dienen der klaren Abgrenzung zum Kanton.
 
