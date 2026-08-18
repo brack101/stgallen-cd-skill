@@ -1,0 +1,33 @@
+name: Build Skill ZIP
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".claude/skills/stgallen-cd/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: ZIP bauen (SKILL.md am Archiv-Root)
+        run: |
+          cd .claude/skills/stgallen-cd
+          zip -r "$GITHUB_WORKSPACE/stgallen-cd.zip" .
+
+      - name: Als Release-Asset veröffentlichen
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: "stgallen-cd Skill (latest)"
+          body: >
+            Automatisch gebautes ZIP von `.claude/skills/stgallen-cd/`
+            für den Upload in claude.ai (Einstellungen → Capabilities/Skills).
+            Wird bei jedem Push nach Änderungen am Skill neu erstellt.
+          files: stgallen-cd.zip

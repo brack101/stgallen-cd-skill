@@ -36,11 +36,13 @@ Installiert/aktualisiert `~/.claude/skills/stgallen-cd`. Bei Änderungen am Skil
 
 **In claude.ai (Browser) verwenden**: Skills lassen sich dort ebenfalls als eigenes Paket hochladen (Feature muss für den Plan aktiviert sein, i.d.R. Pro/Max/Team/Enterprise):
 
-1. Inhalt von `.claude/skills/stgallen-cd/` (also `SKILL.md` + `reference/`) als ZIP packen — `SKILL.md` muss direkt im Wurzelverzeichnis des Archivs liegen, nicht verschachtelt unter `.claude/skills/stgallen-cd/...`.
-   ```bash
-   cd .claude/skills/stgallen-cd
-   zip -r ../../../stgallen-cd.zip .
-   ```
+1. ZIP besorgen (`SKILL.md` liegt direkt im Wurzelverzeichnis des Archivs, nicht verschachtelt unter `.claude/skills/stgallen-cd/...`):
+   - **Fertig gebaut**: [neuestes Release (`stgallen-cd.zip`)](https://github.com/brack101/stgallen-cd-skill/releases/tag/latest) — wird per GitHub Action bei jedem Push mit Änderungen am Skill automatisch neu erstellt (`.github/workflows/build-skill-zip.yml`).
+   - **Selbst bauen**:
+     ```bash
+     cd .claude/skills/stgallen-cd
+     zip -r ../../../stgallen-cd.zip .
+     ```
 2. Auf claude.ai unter **Einstellungen → Capabilities/Skills** das ZIP hochladen.
 3. Skill im Chat aktivieren (Skill-Auswahl/Toggle) — danach greift er dort genauso wie in Claude Code.
 
