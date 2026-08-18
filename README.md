@@ -23,7 +23,16 @@ Der Skill fasst den offiziellen Frontify-Style-Guide der Stadt St.Gallen zusamme
 
 ## Verwendung
 
-Repo in ein Projekt klonen bzw. `.claude/skills/stgallen-cd/` dorthin kopieren — Claude Code lädt Skills aus `.claude/skills/` automatisch und zieht sie bei passenden Anfragen heran.
+**Global installieren** (Skill in jedem Projekt auf dieser Maschine automatisch verfügbar, ohne Kopieren):
+
+```bash
+./install.sh        # macOS/Linux
+./install.ps1        # Windows (PowerShell)
+```
+
+Installiert/aktualisiert `~/.claude/skills/stgallen-cd`. Bei Änderungen am Skill hier im Repo einfach erneut ausführen, um die lokale Kopie zu synchronisieren.
+
+**Projekt-lokal verwenden** (nur in einem bestimmten Projekt, z.B. für Weitergabe/Versionierung mit einem anderen Repo): `.claude/skills/stgallen-cd/` in das Zielprojekt kopieren — Claude Code lädt Skills aus `.claude/skills/` automatisch und zieht sie bei passenden Anfragen heran.
 
 ## Quelle
 
